@@ -1,0 +1,27 @@
+{
+  "name": "gamebackend",
+  "version": "1.0.0",
+  "description": "an Backend for test connections via to different api´s",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonusExercises/gameBackend.git"
+  },
+  "author": "Martin K. Raikun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BonusExercises/gameBackend/issues"
+  },
+  "homepage": "https://github.com/BonusExercises/gameBackend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
