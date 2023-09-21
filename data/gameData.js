@@ -1,0 +1,17 @@
+export const GameData = {
+    class: "",
+    heroName: "",
+    level: 1,
+    exp: 0,
+    attack: 5,
+    defence: 2,
+    health: 100,
+    mana: 10,
+    weapon: "",
+    helmet: "",
+    cheastplate: "",
+    gloves: "",
+    shoes: "",
+    ring: "",
+    amulett: "",
+}
