@@ -18,27 +18,22 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (req, res) => {
-    res.send(ServerPage);
+  res.send(ServerPage)
 });
 
 // Open API
 app.use('/users', (req, res) => {
     res.send(users)
-})
+});
 app.use('/game', (req, res) => {
     res.send(GameData)
-})
+});
 app.use('/items', (req, res) => {
     res.send(Items)
-})
+});
 app.use('/skills', (req, res) => {
     res.send(Skills)
-})
+});
 app.use('/enemies', (req, res) => {
     res.send(Enemies)
-})
-
-console.log(users[0])
-console.log(Enemies[6].attack())
-console.log(Enemies[6].defence())
-console.log(Enemies[6].exp())
+});
