@@ -10,29 +10,29 @@ title="Zitat von Francis Picabia">
         du Lust drauf haben dir mehr Details auszudenken, melde dich gerne.
         Viel Spaß bei der Übung! 
     </p>
-    <div style="display:flex;flex-wrap:wrap;justify-content:space-around;">
-        <p style="width:35rem" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-around;font-size:1.71rem;">
+        <p style="width:40rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
             Fetch URL: https://createagame.onrender.com/users/
         </p>
-        <p style="width:50%;">
+        <p style="width:45%;">
             Hier sind die vor eingestellten User mit denen man sich einloggen kann.
         </p>
-        <p style="width:35rem" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+        <p style="width:40rem" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
             Fetch URL: https://createagame.onrender.com/game/
         </p>
-        <p style="width:50%;">
+        <p style="width:45%;">
             Hier sind die Statistiken der Charaktere.
         </p>
-        <p style="width:35rem" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+        <p style="width:40rem" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
             Fetch URL: https://createagame.onrender.com/items/
         </p>
-        <p style="width:50%;">
+        <p style="width:45%;">
             Hier findest du einige wenige Items um dem Spiel etwas würze zu verleihen..
         </p>
-        <p style="width:35rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+        <p style="width:40rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
             Fetch URL:  https://createagame.onrender.com/skills/
         </p>
-        <p style="width:50%;">
+        <p style="width:45%;">
             Hier sind einige Skills für die unterschiedlichen Klassen.
         </p>
     </div>
