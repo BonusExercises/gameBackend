@@ -4,16 +4,16 @@ export const users = [
     {
         userName: "Player1",
         password: "Password1",
-        gameData: GameData,
+        gameData: GameData[0],
     },
     {
         userName: "Player2",
         password: "Password2",
-        gameData: GameData,
+        gameData: GameData[0],
     },
     {
         userName: "Player3",
         password: "Password3",
-        gameData: GameData,
+        gameData: GameData[0],
     },
 ]
