@@ -17,7 +17,7 @@ title="Zitat von Francis Picabia">
             </a>
         </button>
         <button style="background-color:#232323;width:40rem;margin-top:1rem;padding:1rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'" disabled>
-            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/json/">
+            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/">
                 Zu den Game Dateien
             </a>
         </button>
@@ -27,7 +27,7 @@ title="Zitat von Francis Picabia">
             </a>
         </button>
         <button style="background-color:#232323;width:40rem;margin-top:1rem;padding:1rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'" disabled>
-            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/login/">
+            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/">
                 Zu den Game Dateien
             </a>
         </button>
