@@ -1,40 +1,36 @@
 export const ServerPage =  `
 <main style="background-color:#404050; color:#ccc;
-font-family:'Century Schoolbook',serif; font-size:2rem; letter-spacing:0.3rem;
+font-family:'Century Schoolbook',serif; font-size:1.8rem; letter-spacing:0.3rem;
 padding:4rem; border:double #ccc 0.4rem;"
 title="Zitat von Francis Picabia">
-    <h1 style="text-align:center;">CREATE A GAME</h1>
-    <p>
-        Hier sind die API´s um an die verschiedenen Daten für das Spiel zu kommen.
-        Nutze die Daten, die du für deine Version des Spiels benötigst. Solltest
-        du Lust drauf haben dir mehr Details auszudenken, melde dich gerne.
-        Viel Spaß bei der Übung! 
+    <h1 style="text-align:center;">API World</h1>
+    <p style="font-size:1.6rem;">
+        Willkommen auf meinem kleinen Server. Hier findest du einige vorbereitete API´s zum Üben im Umgang mit Fetch und Axios. Wähle eines der folgenden Unterpunkte aus um die API-URl zu erhalten. Aktuell arbeitet der Server ohne jegliche Verbindung zu Datenbanken und die Abrufbaren Daten sind Hardcoded. Daher sind bisher nur GET requests möglich. Im Laufe dieses Übungsprojektes werden eventuell weitere Features hinzugefügt. 
     </p>
-    <div style="display:flex;flex-wrap:wrap;justify-content:space-around;font-size:1.71rem;">
-        <p style="width:40rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL: https://createagame.onrender.com/users/
-        </p>
-        <p style="width:45%;">
-            Hier sind die vor eingestellten User mit denen man sich einloggen kann.
-        </p>
-        <p style="width:40rem" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL: https://createagame.onrender.com/game/
-        </p>
-        <p style="width:45%;">
-            Hier sind die Statistiken der Charaktere.
-        </p>
-        <p style="width:40rem" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL: https://createagame.onrender.com/items/
-        </p>
-        <p style="width:45%;">
-            Hier findest du einige wenige Items um dem Spiel etwas würze zu verleihen..
-        </p>
-        <p style="width:40rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL:  https://createagame.onrender.com/skills/
-        </p>
-        <p style="width:45%;">
-            Hier sind einige Skills für die unterschiedlichen Klassen.
-        </p>
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-around;font-size:1.5rem;">
+        <h2 style="width:100%;margin-top:0.4rem;text-align:center;color:red;">
+            NAVIGATION
+        </h2>
+        <button style="background-color:#232323;width:40rem;margin-top:1rem;padding:1rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/bigdata/">
+                Zu den Game Dateien
+            </a>
+        </button>
+        <button style="background-color:#232323;width:40rem;margin-top:1rem;padding:1rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/json/">
+                Zu den Game Dateien
+            </a>
+        </button>
+        <button style="background-color:#232323;width:40rem;margin-top:1rem;padding:1rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/game/">
+                Zu den Game Dateien
+            </a>
+        </button>
+        <button style="background-color:#232323;width:40rem;margin-top:1rem;padding:1rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
+            <a style="color:#ccc;text-decoration:none;font-size:1.4rem;"  href="https://createagame.onrender.com/login/">
+                Zu den Game Dateien
+            </a>
+        </button>
     </div>
 </main>
 `
