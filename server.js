@@ -7,6 +7,7 @@ import { Skills } from './data/skills.js';
 import { ServerPage } from './data/serverPage.js';
 import { GamePage } from './data/gamePage.js';
 import { Enemies } from './data/enemies.js';
+import { employees, manager } from './data/bigData.js';
 
 const app = express();
 
@@ -22,23 +23,27 @@ app.get('/', (req, res) => {
   res.send(ServerPage)
 });
 
+app.get('/employees/', (req, res) => {
+    res.send({ manager, employees })
+  });
+
 app.get('/game/', (req, res) => {
     res.send(GamePage)
   });
 
 // Open API
-app.use('/game/users', (req, res) => {
+app.use('game/users', (req, res) => {
     res.send(users)
 });
-app.use('/game/gamedata', (req, res) => {
+app.use('game/gamedata', (req, res) => {
     res.send(GameData)
 });
-app.use('/game/items', (req, res) => {
+app.use('game/items', (req, res) => {
     res.send(Items)
 });
-app.use('/game/skills', (req, res) => {
+app.use('game/skills', (req, res) => {
     res.send(Skills)
 });
-app.use('/game/enemies', (req, res) => {
+app.use('game/enemies', (req, res) => {
     res.send(Enemies)
 });
