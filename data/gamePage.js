@@ -12,31 +12,31 @@ title="Zitat von Francis Picabia">
     </p>
     <div style="display:flex;flex-wrap:wrap;justify-content:space-around;font-size:1.5rem;">
         <p style="width:40rem;margin-top:0.4rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL: https://createagame.onrender.com/users/
+            Fetch URL: https://createagame.onrender.com/game/users/
         </p>
         <p style="width:50%;margin-top:0.4rem;">
             Hier sind die vor eingestellten User mit denen man sich einloggen kann.
         </p>
         <p style="width:40rem;margin-top:0.4rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL: https://createagame.onrender.com/game/
+            Fetch URL: https://createagame.onrender.com/game/gamedata
         </p>
         <p style="width:50%;margin-top:0.4rem;">
             Hier sind die Statistiken der Charaktere.
         </p>
         <p style="width:40rem;margin-top:0.4rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL: https://createagame.onrender.com/items/
+            Fetch URL: https://createagame.onrender.com/game/items/
         </p>
         <p style="width:50%;margin-top:0.4rem;">
             Hier findest du einige wenige Items um dem Spiel etwas würze zu verleihen..
         </p>
         <p style="width:40rem;margin-top:0.4rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL:  https://createagame.onrender.com/skills/
+            Fetch URL:  https://createagame.onrender.com/game/skills/
         </p>
         <p style="width:50%;margin-top:0.4rem;">
             Hier sind einige Skills für die unterschiedlichen Klassen.
         </p>
         <p style="width:42rem;margin-top:0.4rem;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='#ccc'">
-            Fetch URL:  https://createagame.onrender.com/enemies/
+            Fetch URL:  https://createagame.onrender.com/game/enemies/
         </p>
         <p style="width:50%;margin-top:0.4rem;">
             Das sind einige Gegner, die verwendet werden können.
