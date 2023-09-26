@@ -32,18 +32,18 @@ app.get('/game/', (req, res) => {
   });
 
 // Open API
-app.use('game/users', (req, res) => {
+app.use('/game/users', (req, res) => {
     res.send(users)
 });
-app.use('game/gamedata', (req, res) => {
+app.use('/game/gamedata', (req, res) => {
     res.send(GameData)
 });
-app.use('game/items', (req, res) => {
+app.use('/game/items', (req, res) => {
     res.send(Items)
 });
-app.use('game/skills', (req, res) => {
+app.use('/game/skills', (req, res) => {
     res.send(Skills)
 });
-app.use('game/enemies', (req, res) => {
+app.use('/game/enemies', (req, res) => {
     res.send(Enemies)
 });
